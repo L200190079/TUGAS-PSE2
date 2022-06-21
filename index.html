@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	 <head>
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <title>Kalkulator Depresiasi</title>
+	    <link rel="stylesheet" type="text/css" href="pola.css">
+
+	    <!-- pilihan metode depresiasi -->
+	    <script type = "text/javascript">
+			function garisRedirect() {
+				window.location.href = "metodeGaris.html";
+			}
+	    </script>
+	    <script type = "text/javascript">
+			function aktivitasRedirect() {
+				window.location.href = "metodeAktivitas.html";
+			}
+	    </script>
+	    <script type = "text/javascript">  
+			function tahunRedirect() {
+				window.location.href = "metodeTahun.html";
+			}       
+	    </script>
+	    <script type = "text/javascript">  
+			function saldoRedirect() {
+				window.location.href = "metodeSaldo.html";
+			}
+	    </script>
+	  </head>
+
+	<body>
+		<div class="wrapper fadeInDown" style="width:100%;height:100%;position:fixed;">
+			<div id="formContent">
+				<h2 class="active">Kalkulator Depresiasi</h2>
+
+				<input type="submit" class="fadeIn empat" value="Metode Garis Lurus" onclick="garisRedirect()">
+				<input type="submit" class="fadeIn empat" value="Metode Aktivitas" onclick="aktivitasRedirect()">
+				<input type="submit" class="fadeIn empat" value="Metode Jumlah Angka Tahun" onclick="tahunRedirect()">
+				<input type="submit" class="fadeIn empat" value="Metode Saldo Menurun" onclick="saldoRedirect()">
+
+				<div id="formFooter">
+					<a class="underlineHover">Febri Lailian Ikhsanudin L200190079</a>
+					<a class="underlineHover">Intan Ayu L200190064</a>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
